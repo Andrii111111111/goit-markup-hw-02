@@ -1,0 +1,30 @@
+/* variables */
+:root {
+    --first-text-color: #434455;
+    --second-text-color: #2E2F42;
+    --active-link-color: #404BBF;
+}
+
+
+
+body {
+    font-family: "Roboto", "sans-serif";
+    color: var(--first-text-color);
+}
+
+
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* logo */
+.logo {
+    color: #4D5AE5;
+}
+
+
