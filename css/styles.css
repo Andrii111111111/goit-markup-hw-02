@@ -43,7 +43,7 @@ body {
 color: var(--active-link-color);
 }
 .logo-link {
-    text-decoration: none;
+   
     font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -68,17 +68,12 @@ color: var(--second-text-color);
 .nav-link:focus {
     color: #404bbf;
 }
-.nav-list {
-    list-style-type: none;
-}
-.adres-list {
-    list-style-type: none;
-}
+
 .contacts-link {
     color: var(--first-text-color)
 }
 .contacts-link {
-    text-decoration: none;
+   
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
