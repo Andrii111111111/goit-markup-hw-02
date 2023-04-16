@@ -206,9 +206,7 @@ color: var(--second-text-color);
 /* !!!second page!!! */
 
 /* production */
-.production-btn-list {
-list-style-type: none;
-}
+
 .production-btn {
     background-color: var(--bg-buttons);
     border: 1px solid var(--cl-border);
@@ -217,18 +215,15 @@ list-style-type: none;
         line-height: 1.5;
         color: var(--cl-button-txt);
         cursor: pointer;
+        letter-spacing: 0.04em;
+        font-family: "Roboto", sans-serif;
 }
 .production-btn:hover,
 .production-btn:focus {
     background-color: var(--active-link-color);
 color: var(--active-linc-cl-txt);
 }
-.production-list {
-    list-style-type: none;
-}
-.production-links {
-    text-decoration: none;
-}
+
 
 .production-headlines {
     font-weight: 500;
