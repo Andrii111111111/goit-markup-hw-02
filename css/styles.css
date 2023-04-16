@@ -3,7 +3,11 @@
     --first-text-color: #434455;
     --second-text-color: #2E2F42;
     --active-link-color: #404BBF;
+    --active-linc-cl-txt:#FFFFFF;
     --bg-color: #2E2F42;
+    --cl-button-txt:#4D5AE5;
+    --bg-buttons:#F4F4FD;
+    --cl-border:#E7E9FC;
 }
 
 
@@ -178,4 +182,46 @@ text-decoration: none;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+
+/* !!!second page!!! */
+
+/* production */
+.production-btn-list {
+list-style-type: none;
+}
+.production-btn {
+    background-color: var(--bg-buttons);
+    border: 1px solid var(--cl-border);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--cl-button-txt);
+        cursor: pointer;
+}
+.production-btn:hover,
+.production-btn:focus {
+    background-color: var(--active-link-color);
+color: var(--active-linc-cl-txt);
+}
+.production-list {
+    list-style-type: none;
+}
+.production-links {
+    text-decoration: none;
+}
+
+.production-headlines {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);  
+}
+.production-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--first-text-color);
 }
